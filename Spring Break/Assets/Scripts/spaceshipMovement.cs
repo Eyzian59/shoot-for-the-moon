@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class spaceshipMovement : MonoBehaviour
 {
+    public Rigidbody2D rb;
+
+    // Variables for spaceship - thrustPower, current and max fuel, the speed of the rotation, altitude, reduction of the altitude, and heatRate
+
     // Start is called before the first frame update
     void Start()
     {
